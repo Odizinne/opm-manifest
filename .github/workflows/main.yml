@@ -24,8 +24,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # List of repository API URLs
-          urls=("https://api.github.com/repos/odizinne/globalmicmute/releases/latest")
-
+          
+          urls=(
+            "https://api.github.com/repos/odizinne/globalmicmute/releases/latest"
+            "https://api.github.com/repos/odizinne/bigpicturetv/releases/latest"
+          )
+          
           # Initialize JSON content
           json_content="["
 
