@@ -1,13 +1,18 @@
 [
   {
-    "project_name": "GlobalMicMute",
-    "version": "v11",
-    "url": "https://github.com/Odizinne/GlobalMicMute/releases/download/v11/GlobalMicMute_msvc_64.zip"
+    "project_name": "AutoSceneSwitcher",
+    "version": "v6",
+    "url": "https://github.com/Odizinne/AutoSceneSwitcher/releases/download/v6/AutoSceneSwitcher_msvc_64.zip"
   },
   {
     "project_name": "BigPictureTV",
     "version": "v40",
     "url": "https://github.com/Odizinne/BigPictureTV/releases/download/v40/BigPictureTV_msvc_64.zip"
+  },
+  {
+    "project_name": "GlobalMicMute",
+    "version": "v11",
+    "url": "https://github.com/Odizinne/GlobalMicMute/releases/download/v11/GlobalMicMute_msvc_64.zip"
   },
   {
     "project_name": "HeadsetControl-Qt",
@@ -16,12 +21,12 @@
   },
   {
     "project_name": "QMS",
-    "version": "v25",
-    "url": "https://github.com/Odizinne/QMS/releases/download/v25/QMS_msvc_64.zip"
+    "version": "v24",
+    "url": "https://github.com/Odizinne/QMS/releases/download/v24/QMS_msvc_64.zip"
   },
   {
-    "project_name": "AutoSceneSwitcher",
-    "version": "v6",
-    "url": "https://github.com/Odizinne/AutoSceneSwitcher/releases/download/v6/AutoSceneSwitcher_msvc_64.zip"
+    "project_name": "SteamShine",
+    "version": "v8",
+    "url": "https://github.com/Odizinne/SteamShine/releases/download/v8/SteamShine.zip"
   }
 ]
