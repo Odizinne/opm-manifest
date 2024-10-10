@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: # Allows for manual triggering
+  workflow_dispatch:
 
 jobs:
   create-manifest:
@@ -22,6 +22,7 @@ jobs:
           urls=(
             "https://api.github.com/repos/odizinne/globalmicmute/releases/latest"
             "https://api.github.com/repos/odizinne/bigpicturetv/releases/latest"
+            "https://api.github.com/repos/odizinne/headsetcontrol-qt/releases/latest"
           )
 
           # Initialize JSON content
@@ -31,13 +32,26 @@ jobs:
             # Fetch the latest release data from the GitHub API
             response=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "$url")
 
-            # Extract project name, version, and browser_download_url
+            # Extract project name and version
             project_name=$(echo $response | jq -r '.url' | awk -F"/" '{print $(NF-2)}')
             version=$(echo $response | jq -r '.tag_name')
-            download_url=$(echo $response | jq -r '.assets[0].browser_download_url')
 
-            # Append the data to JSON content
-            json_content="$json_content{\"project_name\": \"$project_name\", \"version\": \"$version\", \"url\": \"$download_url\"},"
+            # Initialize download_url as empty
+            download_url=""
+
+            # Loop through assets to find the first valid asset that does not contain "linux"
+            for asset in $(echo $response | jq -c '.assets[]'); do
+              asset_name=$(echo $asset | jq -r '.name')
+              if [[ ! "$asset_name" =~ "linux" ]]; then
+                download_url=$(echo $asset | jq -r '.browser_download_url')
+                break
+              fi
+            done
+
+            # Only append if a valid download_url was found
+            if [[ -n "$download_url" ]]; then
+              json_content="$json_content{\"project_name\": \"$project_name\", \"version\": \"$version\", \"url\": \"$download_url\"},"
+            fi
           done
 
           # Finalize the JSON array and write it to a file
