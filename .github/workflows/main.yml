@@ -27,10 +27,11 @@ jobs:
             "https://api.github.com/repos/odizinne/headsetcontrol-qt/releases/latest"
             "https://api.github.com/repos/odizinne/QMS/releases/latest"
             "https://api.github.com/repos/odizinne/AutoSceneSwitcher/releases/latest"
+            "https://api.github.com/repos/odizinne/steamshine/releases/latest"
           )
 
-          # Initialize JSON content
-          json_content="["
+          # Initialize an empty array to store JSON objects
+          json_array=()
 
           for url in "${urls[@]}"; do
             # Fetch the latest release data from the GitHub API
@@ -52,14 +53,17 @@ jobs:
               fi
             done
 
-            # Only append if a valid download_url was found
+            # Only add to array if a valid download_url was found
             if [[ -n "$download_url" ]]; then
-              json_content="$json_content{\"project_name\": \"$project_name\", \"version\": \"$version\", \"url\": \"$download_url\"},"
+              json_object="{\"project_name\": \"$project_name\", \"version\": \"$version\", \"url\": \"$download_url\"}"
+              json_array+=("$json_object")
             fi
           done
 
-          # Finalize the JSON array and write it to a file
-          json_content="${json_content%,}]"
+          # Convert array to JSON and sort by project_name
+          json_content=$(printf '%s\n' "${json_array[@]}" | jq -s 'sort_by(.project_name)')
+
+          # Write sorted JSON array to manifest.json
           echo $json_content | jq '.' > manifest.json
 
       - name: Commit and Push Manifest JSON
