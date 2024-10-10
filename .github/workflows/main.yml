@@ -27,7 +27,6 @@ jobs:
             "https://api.github.com/repos/odizinne/headsetcontrol-qt/releases/latest"
             "https://api.github.com/repos/odizinne/QMS/releases/latest"
             "https://api.github.com/repos/odizinne/AutoSceneSwitcher/releases/latest"
-            "https://api.github.com/repos/odizinne/opm-test/releases/latest"
           )
 
           # Initialize JSON content
