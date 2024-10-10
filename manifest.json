@@ -8,5 +8,10 @@
     "project_name": "BigPictureTV",
     "version": "v40",
     "url": "https://github.com/Odizinne/BigPictureTV/releases/download/v40/BigPictureTV_msvc_64.zip"
+  },
+  {
+    "project_name": "HeadsetControl-Qt",
+    "version": "v23",
+    "url": "https://github.com/Odizinne/HeadsetControl-Qt/releases/download/v23/HeadsetControl-Qt_msvc_64.zip"
   }
 ]
