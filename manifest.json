@@ -20,6 +20,16 @@
     "url": "https://github.com/Odizinne/HeadsetControl-Qt/releases/download/v23/HeadsetControl-Qt_msvc_64.zip"
   },
   {
+    "project_name": "MouseReactiveRGB",
+    "version": "v11",
+    "url": "https://github.com/Odizinne/MouseReactiveRGB/releases/download/v11/MouseReactiveRGB.zip"
+  },
+  {
+    "project_name": "OpenRGB-Installer",
+    "version": "v4",
+    "url": "https://github.com/Odizinne/OpenRGB-Installer/releases/download/v4/OpenRGB-Installer_msvc_64.zip"
+  },
+  {
     "project_name": "QMS",
     "version": "v24",
     "url": "https://github.com/Odizinne/QMS/releases/download/v24/QMS_msvc_64.zip"
