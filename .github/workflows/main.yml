@@ -32,7 +32,7 @@ jobs:
             response=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "$url")
 
             # Extract project name, version, and asset URL
-            project_name=$(echo $response | jq -r '.url' | awk -F"/" '{print $(NF-3)}')
+            project_name=$(echo $response | jq -r '.url' | awk -F"/" '{print $(NF-2)}')
             version=$(echo $response | jq -r '.tag_name')
             asset_url=$(echo $response | jq -r '.assets[0].url')
 
