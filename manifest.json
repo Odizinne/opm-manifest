@@ -16,17 +16,12 @@
   },
   {
     "project_name": "QMS",
-    "version": "v24",
-    "url": "https://github.com/Odizinne/QMS/releases/download/v24/QMS_msvc_64.zip"
+    "version": "v25",
+    "url": "https://github.com/Odizinne/QMS/releases/download/v25/QMS_msvc_64.zip"
   },
   {
     "project_name": "AutoSceneSwitcher",
     "version": "v6",
     "url": "https://github.com/Odizinne/AutoSceneSwitcher/releases/download/v6/AutoSceneSwitcher_msvc_64.zip"
-  },
-  {
-    "project_name": "opm-test",
-    "version": "v1",
-    "url": "https://github.com/Odizinne/opm-test/releases/download/v1/opm-test.zip"
   }
 ]
