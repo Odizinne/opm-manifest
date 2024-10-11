@@ -38,5 +38,10 @@
     "project_name": "SteamShine",
     "version": "v8",
     "url": "https://github.com/Odizinne/SteamShine/releases/download/v8/SteamShine.zip"
+  },
+  {
+    "project_name": "makeSense",
+    "version": "v22",
+    "url": "https://github.com/Odizinne/makeSense/releases/download/v22/makeSense.zip"
   }
 ]
