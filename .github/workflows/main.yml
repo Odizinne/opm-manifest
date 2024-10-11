@@ -31,6 +31,7 @@ jobs:
             "https://api.github.com/repos/odizinne/mousereactivergb/releases/latest"
             "https://api.github.com/repos/odizinne/openrgb-installer/releases/latest"
             "https://api.github.com/repos/odizinne/makesense/releases/latest"
+            "https://api.github.com/repos/odizinne/sunshine-toolbox/releases/latest"
           )
 
           # Initialize an empty array to store JSON objects
