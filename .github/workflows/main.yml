@@ -30,6 +30,7 @@ jobs:
             "https://api.github.com/repos/odizinne/steamshine/releases/latest"
             "https://api.github.com/repos/odizinne/mousereactivergb/releases/latest"
             "https://api.github.com/repos/odizinne/openrgb-installer/releases/latest"
+            "https://api.github.com/repos/odizinne/makesense/releases/latest"
           )
 
           # Initialize an empty array to store JSON objects
