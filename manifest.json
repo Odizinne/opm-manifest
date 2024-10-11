@@ -20,6 +20,11 @@
     "url": "https://github.com/Odizinne/HeadsetControl-Qt/releases/download/v23/HeadsetControl-Qt_msvc_64.zip"
   },
   {
+    "project_name": "makeSense",
+    "version": "v22",
+    "url": "https://github.com/Odizinne/makeSense/releases/download/v22/makeSense.zip"
+  },
+  {
     "project_name": "MouseReactiveRGB",
     "version": "v11",
     "url": "https://github.com/Odizinne/MouseReactiveRGB/releases/download/v11/MouseReactiveRGB.zip"
@@ -43,10 +48,5 @@
     "project_name": "Sunshine-Toolbox",
     "version": "v3",
     "url": "https://github.com/Odizinne/Sunshine-Toolbox/releases/download/v3/Sunshine-Toolbox_msvc_64.zip"
-  },
-  {
-    "project_name": "makeSense",
-    "version": "v22",
-    "url": "https://github.com/Odizinne/makeSense/releases/download/v22/makeSense.zip"
   }
 ]
