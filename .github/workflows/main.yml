@@ -65,7 +65,8 @@ jobs:
           done
 
           # Convert array to JSON and sort by project_name
-          json_content=$(printf '%s\n' "${json_array[@]}" | jq -s 'sort_by(.project_name)')
+          json_content=$(printf '%s\n' "${json_array[@]}" | jq -s 'sort_by(.project_name | ascii_downcase)')
+
 
           # Write sorted JSON array to manifest.json
           echo $json_content | jq '.' > manifest.json
