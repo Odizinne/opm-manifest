@@ -40,6 +40,11 @@
     "url": "https://github.com/Odizinne/SteamShine/releases/download/v8/SteamShine.zip"
   },
   {
+    "project_name": "Sunshine-Toolbox",
+    "version": "v3",
+    "url": "https://github.com/Odizinne/Sunshine-Toolbox/releases/download/v3/Sunshine-Toolbox_msvc_64.zip"
+  },
+  {
     "project_name": "makeSense",
     "version": "v22",
     "url": "https://github.com/Odizinne/makeSense/releases/download/v22/makeSense.zip"
