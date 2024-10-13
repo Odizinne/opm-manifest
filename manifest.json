@@ -2,51 +2,61 @@
   {
     "project_name": "AutoSceneSwitcher",
     "version": "v6",
-    "url": "https://github.com/Odizinne/AutoSceneSwitcher/releases/download/v6/AutoSceneSwitcher_msvc_64.zip"
+    "url": "https://github.com/Odizinne/AutoSceneSwitcher/releases/download/v6/AutoSceneSwitcher_msvc_64.zip",
+    "create_shortcut": true
   },
   {
     "project_name": "BigPictureTV",
     "version": "v40",
-    "url": "https://github.com/Odizinne/BigPictureTV/releases/download/v40/BigPictureTV_msvc_64.zip"
+    "url": "https://github.com/Odizinne/BigPictureTV/releases/download/v40/BigPictureTV_msvc_64.zip",
+    "create_shortcut": true
   },
   {
     "project_name": "GlobalMicMute",
     "version": "v11",
-    "url": "https://github.com/Odizinne/GlobalMicMute/releases/download/v11/GlobalMicMute_msvc_64.zip"
+    "url": "https://github.com/Odizinne/GlobalMicMute/releases/download/v11/GlobalMicMute_msvc_64.zip",
+    "create_shortcut": true
   },
   {
     "project_name": "HeadsetControl-Qt",
     "version": "v23",
-    "url": "https://github.com/Odizinne/HeadsetControl-Qt/releases/download/v23/HeadsetControl-Qt_msvc_64.zip"
+    "url": "https://github.com/Odizinne/HeadsetControl-Qt/releases/download/v23/HeadsetControl-Qt_msvc_64.zip",
+    "create_shortcut": true
   },
   {
     "project_name": "makeSense",
     "version": "v22",
-    "url": "https://github.com/Odizinne/makeSense/releases/download/v22/makeSense.zip"
+    "url": "https://github.com/Odizinne/makeSense/releases/download/v22/makeSense.zip",
+    "create_shortcut": true
   },
   {
     "project_name": "MouseReactiveRGB",
     "version": "v11",
-    "url": "https://github.com/Odizinne/MouseReactiveRGB/releases/download/v11/MouseReactiveRGB.zip"
+    "url": "https://github.com/Odizinne/MouseReactiveRGB/releases/download/v11/MouseReactiveRGB.zip",
+    "create_shortcut": true
   },
   {
     "project_name": "OpenRGB-Installer",
     "version": "v4",
-    "url": "https://github.com/Odizinne/OpenRGB-Installer/releases/download/v4/OpenRGB-Installer_msvc_64.zip"
+    "url": "https://github.com/Odizinne/OpenRGB-Installer/releases/download/v4/OpenRGB-Installer_msvc_64.zip",
+    "create_shortcut": true
   },
   {
     "project_name": "QMS",
     "version": "v24",
-    "url": "https://github.com/Odizinne/QMS/releases/download/v24/QMS_msvc_64.zip"
+    "url": "https://github.com/Odizinne/QMS/releases/download/v24/QMS_msvc_64.zip",
+    "create_shortcut": true
   },
   {
     "project_name": "SteamShine",
     "version": "v8",
-    "url": "https://github.com/Odizinne/SteamShine/releases/download/v8/SteamShine.zip"
+    "url": "https://github.com/Odizinne/SteamShine/releases/download/v8/SteamShine.zip",
+    "create_shortcut": true
   },
   {
     "project_name": "Sunshine-Toolbox",
     "version": "v3",
-    "url": "https://github.com/Odizinne/Sunshine-Toolbox/releases/download/v3/Sunshine-Toolbox_msvc_64.zip"
+    "url": "https://github.com/Odizinne/Sunshine-Toolbox/releases/download/v3/Sunshine-Toolbox_msvc_64.zip",
+    "create_shortcut": true
   }
 ]
