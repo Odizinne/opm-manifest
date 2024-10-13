@@ -57,6 +57,6 @@
     "project_name": "Sunshine-Toolbox",
     "version": "v3",
     "url": "https://github.com/Odizinne/Sunshine-Toolbox/releases/download/v3/Sunshine-Toolbox_msvc_64.zip",
-    "create_shortcut": true
+    "create_shortcut": false
   }
 ]
