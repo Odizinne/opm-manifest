@@ -62,8 +62,11 @@ jobs:
 
             # Only add to array if a valid download_url was found
             if [[ -n "$download_url" ]]; then
+              # Convert project_name to lowercase
+              project_name_lower=$(echo "$project_name" | tr '[:upper:]' '[:lower:]')
+
               # Check if the project should have "create_shortcut": false
-              if [[ " ${no_shortcut[@]} " =~ " ${project_name} " ]]; then
+              if [[ " ${no_shortcut[@]} " =~ " ${project_name_lower} " ]]; then
                 json_object="{\"project_name\": \"$project_name\", \"version\": \"$version\", \"url\": \"$download_url\", \"create_shortcut\": false}"
               else
                 json_object="{\"project_name\": \"$project_name\", \"version\": \"$version\", \"url\": \"$download_url\", \"create_shortcut\": true}"
