@@ -34,6 +34,9 @@ jobs:
             "https://api.github.com/repos/odizinne/sunshine-toolbox/releases/latest"
           )
 
+          # Repositories that should NOT have "create_shortcut": true
+          no_shortcut=( "sunshine-toolbox" )
+
           # Initialize an empty array to store JSON objects
           json_array=()
 
@@ -59,14 +62,18 @@ jobs:
 
             # Only add to array if a valid download_url was found
             if [[ -n "$download_url" ]]; then
-              json_object="{\"project_name\": \"$project_name\", \"version\": \"$version\", \"url\": \"$download_url\"}"
+              # Check if the project should have "create_shortcut": false
+              if [[ " ${no_shortcut[@]} " =~ " ${project_name} " ]]; then
+                json_object="{\"project_name\": \"$project_name\", \"version\": \"$version\", \"url\": \"$download_url\", \"create_shortcut\": false}"
+              else
+                json_object="{\"project_name\": \"$project_name\", \"version\": \"$version\", \"url\": \"$download_url\", \"create_shortcut\": true}"
+              fi
               json_array+=("$json_object")
             fi
           done
 
           # Convert array to JSON and sort by project_name
           json_content=$(printf '%s\n' "${json_array[@]}" | jq -s 'sort_by(.project_name | ascii_downcase)')
-
 
           # Write sorted JSON array to manifest.json
           echo $json_content | jq '.' > manifest.json
