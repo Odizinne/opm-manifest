@@ -48,6 +48,12 @@
     "create_shortcut": true
   },
   {
+    "project_name": "QuickSoundSwitcher",
+    "version": "v1",
+    "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/v1/QuickSoundSwitcher_msvc_64.zip",
+    "create_shortcut": true
+  },
+  {
     "project_name": "SteamShine",
     "version": "v8",
     "url": "https://github.com/Odizinne/SteamShine/releases/download/v8/SteamShine.zip",
