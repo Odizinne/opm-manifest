@@ -3,66 +3,77 @@
     "project_name": "AutoSceneSwitcher",
     "version": "v6",
     "url": "https://github.com/Odizinne/AutoSceneSwitcher/releases/download/v6/AutoSceneSwitcher_msvc_64.zip",
+    "description": "Switch Streamlabs scene based on process presence",
     "create_shortcut": true
   },
   {
     "project_name": "BigPictureTV",
     "version": "v40",
     "url": "https://github.com/Odizinne/BigPictureTV/releases/download/v40/BigPictureTV_msvc_64.zip",
+    "description": "Steam couch gaming made easy and automated",
     "create_shortcut": true
   },
   {
     "project_name": "GlobalMicMute",
     "version": "v11",
     "url": "https://github.com/Odizinne/GlobalMicMute/releases/download/v11/GlobalMicMute_msvc_64.zip",
+    "description": "Global microphone mute shortcut for windows",
     "create_shortcut": true
   },
   {
     "project_name": "HeadsetControl-Qt",
     "version": "v23",
     "url": "https://github.com/Odizinne/HeadsetControl-Qt/releases/download/v23/HeadsetControl-Qt_msvc_64.zip",
+    "description": "Qt6 Gui for HeadsetControl",
     "create_shortcut": true
   },
   {
     "project_name": "makeSense",
     "version": "v22",
     "url": "https://github.com/Odizinne/makeSense/releases/download/v22/makeSense.zip",
+    "description": "Python Dualsense driver using dualsense-controller",
     "create_shortcut": true
   },
   {
     "project_name": "MouseReactiveRGB",
     "version": "v11",
     "url": "https://github.com/Odizinne/MouseReactiveRGB/releases/download/v11/MouseReactiveRGB.zip",
+    "description": "Reactive effect on mouse button press",
     "create_shortcut": true
   },
   {
     "project_name": "OpenRGB-Installer",
     "version": "v4",
     "url": "https://github.com/Odizinne/OpenRGB-Installer/releases/download/v4/OpenRGB-Installer_msvc_64.zip",
+    "description": "Tiny OpenRGB installer for windows",
     "create_shortcut": true
   },
   {
     "project_name": "QMS",
     "version": "v24",
     "url": "https://github.com/Odizinne/QMS/releases/download/v24/QMS_msvc_64.zip",
+    "description": "One click on/off secondary screen",
     "create_shortcut": true
   },
   {
     "project_name": "QuickSoundSwitcher",
     "version": "v7",
     "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/v7/QuickSoundSwitcher_msvc_64.zip",
+    "description": "Switch default AND communication device",
     "create_shortcut": true
   },
   {
     "project_name": "SteamShine",
     "version": "v8",
     "url": "https://github.com/Odizinne/SteamShine/releases/download/v8/SteamShine.zip",
+    "description": "Python daemon that add your Steam games to sunshine",
     "create_shortcut": true
   },
   {
     "project_name": "Sunshine-Toolbox",
     "version": "v3",
     "url": "https://github.com/Odizinne/Sunshine-Toolbox/releases/download/v3/Sunshine-Toolbox_msvc_64.zip",
+    "description": "Toolbox for sunshine (Who could have guessed?)",
     "create_shortcut": false
   }
 ]
