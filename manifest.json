@@ -57,8 +57,8 @@
   },
   {
     "project_name": "QuickSoundSwitcher",
-    "version": "v9",
-    "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/v9/QuickSoundSwitcher_msvc_64.zip",
+    "version": "v10",
+    "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/v10/QuickSoundSwitcher_msvc_64.zip",
     "description": "Switch default AND communication device",
     "create_shortcut": true
   },
