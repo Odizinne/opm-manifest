@@ -33,6 +33,7 @@ jobs:
             "https://api.github.com/repos/odizinne/makesense/releases/latest"
             "https://api.github.com/repos/odizinne/sunshine-toolbox/releases/latest"
             "https://api.github.com/repos/odizinne/QuickSoundSwitcher/releases/latest"
+            "https://api.github.com/repos/odizinne/qwote/releases/latest"
           )
 
           # Repositories that should NOT have "create_shortcut": true
