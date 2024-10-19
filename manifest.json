@@ -63,6 +63,13 @@
     "create_shortcut": true
   },
   {
+    "project_name": "Qwote",
+    "version": "v1",
+    "url": "https://github.com/Odizinne/Qwote/releases/download/v1/Qwote_msvc_64.zip",
+    "description": "Dead simple sticky notes app",
+    "create_shortcut": true
+  },
+  {
     "project_name": "SteamShine",
     "version": "v8",
     "url": "https://github.com/Odizinne/SteamShine/releases/download/v8/SteamShine.zip",
