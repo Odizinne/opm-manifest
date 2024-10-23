@@ -64,8 +64,8 @@
   },
   {
     "project_name": "Qwote",
-    "version": "v25",
-    "url": "https://github.com/Odizinne/Qwote/releases/download/v25/Qwote_msvc_64.zip",
+    "version": "v26",
+    "url": "https://github.com/Odizinne/Qwote/releases/download/v26/Qwote_msvc_64.zip",
     "description": "Dead simple sticky notes app",
     "create_shortcut": true
   },
