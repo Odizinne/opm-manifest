@@ -15,8 +15,8 @@
   },
   {
     "project_name": "GlobalMicMute",
-    "version": "v11",
-    "url": "https://github.com/Odizinne/GlobalMicMute/releases/download/v11/GlobalMicMute_msvc_64.zip",
+    "version": "v12",
+    "url": "https://github.com/Odizinne/GlobalMicMute/releases/download/v12/GlobalMicMute_msvc_64.zip",
     "description": "Global microphone mute shortcut for windows",
     "create_shortcut": true
   },
