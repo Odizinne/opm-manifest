@@ -8,8 +8,8 @@
   },
   {
     "project_name": "BigPictureTV",
-    "version": "v41",
-    "url": "https://github.com/Odizinne/BigPictureTV/releases/download/v41/BigPictureTV_msvc_64.zip",
+    "version": "v42",
+    "url": "https://github.com/Odizinne/BigPictureTV/releases/download/v42/BigPictureTV_msvc_64.zip",
     "description": "Steam couch gaming made easy and automated",
     "create_shortcut": true
   },
@@ -50,8 +50,8 @@
   },
   {
     "project_name": "ProConMon",
-    "version": "v2",
-    "url": "https://github.com/Odizinne/ProConMon/releases/download/v2/ProConMon_msvc_64.zip",
+    "version": "v3",
+    "url": "https://github.com/Odizinne/ProConMon/releases/download/v3/ProConMon_msvc_64.zip",
     "description": "Monitor switch pro controller battery",
     "create_shortcut": true
   },
