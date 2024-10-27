@@ -49,6 +49,13 @@
     "create_shortcut": true
   },
   {
+    "project_name": "ProConMon",
+    "version": "v1",
+    "url": "https://github.com/Odizinne/ProConMon/releases/download/v1/ProConMon_msvc_64.zip",
+    "description": "Monitor switch pro controller battery",
+    "create_shortcut": true
+  },
+  {
     "project_name": "QMS",
     "version": "v25",
     "url": "https://github.com/Odizinne/QMS/releases/download/v25/QMS_msvc_64.zip",
