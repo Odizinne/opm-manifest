@@ -8,8 +8,8 @@
   },
   {
     "project_name": "BigPictureTV",
-    "version": "v42",
-    "url": "https://github.com/Odizinne/BigPictureTV/releases/download/v42/BigPictureTV_msvc_64.zip",
+    "version": "v43",
+    "url": "https://github.com/Odizinne/BigPictureTV/releases/download/v43/BigPictureTV_msvc_64.zip",
     "description": "Steam couch gaming made easy and automated",
     "create_shortcut": true
   },
@@ -64,8 +64,8 @@
   },
   {
     "project_name": "QuickSoundSwitcher",
-    "version": "v15",
-    "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/v15/QuickSoundSwitcher_msvc_64.zip",
+    "version": "v16",
+    "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/v16/QuickSoundSwitcher_msvc_64.zip",
     "description": "Switch default AND communication device",
     "create_shortcut": true
   },
