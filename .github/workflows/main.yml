@@ -22,7 +22,6 @@ jobs:
         run: |
           # List of repository API URLs
           urls=(
-            "https://api.github.com/repos/odizinne/globalmicmute/releases/latest"
             "https://api.github.com/repos/odizinne/bigpicturetv/releases/latest"
             "https://api.github.com/repos/odizinne/headsetcontrol-qt/releases/latest"
             "https://api.github.com/repos/odizinne/QMS/releases/latest"
