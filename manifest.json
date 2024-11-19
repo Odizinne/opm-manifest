@@ -14,13 +14,6 @@
     "create_shortcut": true
   },
   {
-    "project_name": "GlobalMicMute",
-    "version": "v12",
-    "url": "https://github.com/Odizinne/GlobalMicMute/releases/download/v12/GlobalMicMute_msvc_64.zip",
-    "description": "Global microphone mute shortcut for windows",
-    "create_shortcut": true
-  },
-  {
     "project_name": "HeadsetControl-Qt",
     "version": "v24",
     "url": "https://github.com/Odizinne/HeadsetControl-Qt/releases/download/v24/HeadsetControl-Qt_msvc_64.zip",
@@ -64,8 +57,8 @@
   },
   {
     "project_name": "QuickSoundSwitcher",
-    "version": "v27",
-    "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/v27/QuickSoundSwitcher_msvc_64.zip",
+    "version": "v28",
+    "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/v28/QuickSoundSwitcher_msvc_64.zip",
     "description": "Custom windows sound panel",
     "create_shortcut": true
   },
