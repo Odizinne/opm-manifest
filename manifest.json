@@ -50,8 +50,8 @@
   },
   {
     "project_name": "QMS",
-    "version": "v27",
-    "url": "https://github.com/Odizinne/QMS/releases/download/v27/QMS_msvc_64.zip",
+    "version": "v28",
+    "url": "https://github.com/Odizinne/QMS/releases/download/v28/QMS_msvc_64.zip",
     "description": "One click on/off secondary screen",
     "create_shortcut": true
   },
