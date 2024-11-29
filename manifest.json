@@ -57,8 +57,8 @@
   },
   {
     "project_name": "QuickSoundSwitcher",
-    "version": "v64",
-    "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/v64/QuickSoundSwitcher_msvc_64.zip",
+    "version": "v65",
+    "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/v65/QuickSoundSwitcher_msvc_64.zip",
     "description": "Custom windows sound panel",
     "create_shortcut": true
   },
