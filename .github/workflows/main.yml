@@ -60,9 +60,14 @@ jobs:
             download_url=""
 
             # Loop through assets to find the first valid asset that does not contain "linux"
+            # Loop through assets to find the first valid asset that does not contain excluded terms
             for asset in $(echo $response | jq -c '.assets[]'); do
               asset_name=$(echo $asset | jq -r '.name')
-              if [[ ! "$asset_name" =~ "linux" ]]; then
+              # Convert to lowercase for case-insensitive comparison
+              asset_name_lower=$(echo "$asset_name" | tr '[:upper:]' '[:lower:]')
+              if [[ ! "$asset_name_lower" =~ "linux" ]] && \
+                 [[ ! "$asset_name_lower" =~ "appimage" ]] && \
+                 [[ ! "$asset_name_lower" =~ "installer" ]]; then
                 download_url=$(echo $asset | jq -r '.browser_download_url')
                 break
               fi
