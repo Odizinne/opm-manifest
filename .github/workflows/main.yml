@@ -34,6 +34,7 @@ jobs:
             "https://api.github.com/repos/odizinne/QuickSoundSwitcher/releases/latest"
             "https://api.github.com/repos/odizinne/qwote/releases/latest"
             "https://api.github.com/repos/odizinne/proconmon/releases/latest"
+            "https://api.github.com/repos/odizinne/Retr0Mine/releases/latest"
           )
 
           # Repositories that should NOT have "create_shortcut": true
