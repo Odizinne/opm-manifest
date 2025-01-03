@@ -35,13 +35,6 @@
     "create_shortcut": true
   },
   {
-    "project_name": "OpenRGB-Installer",
-    "version": "v4",
-    "url": "https://github.com/Odizinne/OpenRGB-Installer/releases/download/v4/OpenRGB-Installer_msvc_64.zip",
-    "description": "Tiny OpenRGB installer for windows",
-    "create_shortcut": true
-  },
-  {
     "project_name": "ProConMon",
     "version": "v3",
     "url": "https://github.com/Odizinne/ProConMon/releases/download/v3/ProConMon_msvc_64.zip",
@@ -72,7 +65,7 @@
   {
     "project_name": "Retr0Mine",
     "version": "v5",
-    "url": "https://github.com/Odizinne/Retr0Mine/releases/download/v5/Retr0Mine-x86_64.AppImage",
+    "url": "https://github.com/Odizinne/Retr0Mine/releases/download/v5/Retr0Mine_msvc_64.zip",
     "description": "Modern UI minesweeper created for a friend.",
     "create_shortcut": true
   },
