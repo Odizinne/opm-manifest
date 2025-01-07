@@ -50,8 +50,8 @@
   },
   {
     "project_name": "QuickSoundSwitcher",
-    "version": "v95",
-    "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/v95/QuickSoundSwitcher_msvc_64.zip",
+    "version": "v96",
+    "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/v96/QuickSoundSwitcher_msvc_64.zip",
     "description": "Custom windows sound panel",
     "create_shortcut": true
   },
@@ -64,8 +64,8 @@
   },
   {
     "project_name": "Retr0Mine",
-    "version": "v21",
-    "url": "https://github.com/Odizinne/Retr0Mine/releases/download/v21/Retr0Mine_msvc_64.zip",
+    "version": "v22",
+    "url": "https://github.com/Odizinne/Retr0Mine/releases/download/v22/Retr0Mine_msvc_64.zip",
     "description": "Modern UI minesweeper created for a friend.",
     "create_shortcut": true
   },
