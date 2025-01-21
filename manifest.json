@@ -64,8 +64,8 @@
   },
   {
     "project_name": "Retr0Mine",
-    "version": "v47",
-    "url": "https://github.com/Odizinne/Retr0Mine/releases/download/v47/Retr0Mine_msvc_64.zip",
+    "version": "v48",
+    "url": "https://github.com/Odizinne/Retr0Mine/releases/download/v48/Retr0Mine_msvc_64.zip",
     "description": "Modern UI minesweeper created for a friend.",
     "create_shortcut": true
   },
