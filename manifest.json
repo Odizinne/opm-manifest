@@ -21,34 +21,6 @@
     "create_shortcut": true
   },
   {
-    "project_name": "makeSense",
-    "version": "v22",
-    "url": "https://github.com/Odizinne/makeSense/releases/download/v22/makeSense.zip",
-    "description": "Python Dualsense driver using dualsense-controller",
-    "create_shortcut": true
-  },
-  {
-    "project_name": "MouseReactiveRGB",
-    "version": "v11",
-    "url": "https://github.com/Odizinne/MouseReactiveRGB/releases/download/v11/MouseReactiveRGB.zip",
-    "description": "Reactive effect on mouse button press",
-    "create_shortcut": true
-  },
-  {
-    "project_name": "ProConMon",
-    "version": "v3",
-    "url": "https://github.com/Odizinne/ProConMon/releases/download/v3/ProConMon_msvc_64.zip",
-    "description": "Monitor switch pro controller battery",
-    "create_shortcut": true
-  },
-  {
-    "project_name": "QMS",
-    "version": "v31",
-    "url": "https://github.com/Odizinne/QMS/releases/download/v31/QMS_msvc_64.zip",
-    "description": "One click on/off secondary screen",
-    "create_shortcut": true
-  },
-  {
     "project_name": "QuickSoundSwitcher",
     "version": "v98",
     "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/v98/QuickSoundSwitcher_msvc_64.zip",
@@ -67,13 +39,6 @@
     "version": "v49",
     "url": "https://github.com/Odizinne/Retr0Mine/releases/download/v49/Retr0Mine_msvc_64.zip",
     "description": "Modern UI minesweeper created for a friend.",
-    "create_shortcut": true
-  },
-  {
-    "project_name": "SteamShine",
-    "version": "v8",
-    "url": "https://github.com/Odizinne/SteamShine/releases/download/v8/SteamShine.zip",
-    "description": "Python daemon that add your Steam games to sunshine",
     "create_shortcut": true
   },
   {
