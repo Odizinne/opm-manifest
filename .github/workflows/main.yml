@@ -26,7 +26,6 @@ jobs:
             "https://api.github.com/repos/odizinne/headsetcontrol-qt/releases/latest"
             "https://api.github.com/repos/odizinne/AutoSceneSwitcher/releases/latest"
             "https://api.github.com/repos/odizinne/openrgb-installer/releases/latest"
-            "https://api.github.com/repos/odizinne/sunshine-toolbox/releases/latest"
             "https://api.github.com/repos/odizinne/QuickSoundSwitcher/releases/latest"
             "https://api.github.com/repos/odizinne/qwote/releases/latest"
             "https://api.github.com/repos/odizinne/Retr0Mine/releases/latest"
