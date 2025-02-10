@@ -40,12 +40,5 @@
     "url": "https://github.com/Odizinne/Retr0Mine/releases/download/v51/Retr0Mine_msvc_64.zip",
     "description": "Modern UI minesweeper created for a friend.",
     "create_shortcut": true
-  },
-  {
-    "project_name": "Sunshine-Toolbox",
-    "version": "v7",
-    "url": "https://github.com/Odizinne/Sunshine-Toolbox/releases/download/v7/Sunshine-Toolbox.exe",
-    "description": "Toolbox for sunshine (Who could have guessed?)",
-    "create_shortcut": false
   }
 ]
