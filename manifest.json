@@ -15,8 +15,8 @@
   },
   {
     "project_name": "HeadsetControl-Qt",
-    "version": "v27",
-    "url": "https://github.com/Odizinne/HeadsetControl-Qt/releases/download/v27/HeadsetControl-Qt_msvc_64.zip",
+    "version": "v28",
+    "url": "https://github.com/Odizinne/HeadsetControl-Qt/releases/download/v28/HeadsetControl-Qt_msvc_64.zip",
     "description": "Qt6 Gui for HeadsetControl",
     "create_shortcut": true
   },
